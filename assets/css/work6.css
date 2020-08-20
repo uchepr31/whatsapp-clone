@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-image: url(mk.jpg);
+}
+img{
+    height: 20px;
+    width: 40px;
+    border-radius: 50%;
+}
+/* this gives the first green heading */
+#ta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(ka.jpg);
+    height: 70px;
+}
+/* this gives a grid of two unequal columns */
+#gridbox{
+display: grid;
+grid-template-columns: 30% 70%;
+align-content: center;
+grid-gap: 
+height:570px;
+width: 900px;
+position: absolute;
+left: 250px;
+top: 20px;
+border: 0.1px solid aliceblue;
+}
+#t1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(mk.jpg) ;
+    width: 400px;
+    height: 40px;
+}
+#j1{
+    position: absolute;
+    top: 3.5px;
+    left: 20px;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    
+}
+ul{
+    list-style-type: none;
+}
+ li{
+    float: left;
+    position: absolute;
+    top:10px ;
+    left: 100px;
+    
+}
+#mi{
+    transform: translateX(130px);
+}
+#ice{
+    transform: translateX(110px);
+}
+#cu{
+    transform: translateX(90px);
+}
+
+#t2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(ja.jpg);
+    height: 62px;
+}
+#j3{
+    position: absolute;
+    left: 20px;
+    top: 52px;
+    height: 40px;
+    width: 40px;
+}
+#up{
+    font-size: 10px;
+}
+#pa{
+    position: absolute;
+    left: 35px;
+    transform: translateY(-5px);
+    z-index: 1;
+}
+#t3{
+    position: absolute;
+    top:105px ;
+    left: 10px;
+}
+input[type="text"]{
+    width: 255px;
+    height: 20px;
+    border: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 10px;
+    outline: none;
+}
+#ra{
+    position: absolute;
+    left: 12px;
+    transform: translateY(6px);
+    font-size: 10px;
+}
+#t4{
+    position: absolute;
+    top: 130px;
+    background-image: url(ta.jpg);
+    height: 440px;
+    width: 270px;
+}
+#f1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#j4{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    height: 40px;
+    width: 40px;
+}
+#n1{
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+#g12{
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    font-size: 10px;
+}
+#f2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#j5{
+    position: absolute;
+    left: 20px;
+    top: 97px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+#n2{
+    position: absolute;
+    left: 80px;
+    top: 90px;
+}
+#g95{
+    position: absolute;
+    left: 200px;
+    top: 90px;
+    font-size: 10px;
+}
+#f3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#j6{
+    position: absolute;
+    left: 20px;
+    top: 175px;
+    height: 40px;
+    width: 40px;
+}
+#n3{
+    position: absolute;
+    left: 80px;
+    top: 175px;
+}
+#g67{
+    position: absolute;
+    left: 200px;
+    top: 175px;
+    font-size: 10px;
+}
+#f4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#j7{
+    position: absolute;
+    left: 20px;
+    top: 260px;
+    height: 40px;
+    width: 40px;
+}
+#n4{
+    position: absolute;
+    left: 80px;
+    top: 260px;
+}
+#g82{
+    position: absolute;
+    left: 197px;
+    top: 258px;
+    font-size: 10px;
+}
+#f5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#j8{
+    position: absolute;
+    left: 20px;
+    top: 345px;
+    height: 40px;
+    width: 40px;
+}
+#n5{
+    position: absolute;
+    left: 80px;
+    top: 350px;
+}
+#g13{
+    position: absolute;
+    left: 198px;
+    top: 345px;
+    font-size: 10px;
+}
+#two{
+    background-image: url(sit.jpg);
+    height: 570px;
+}
+#keep{
+    position: absolute;
+    top:390px ;
+    left: 450px;
+}
+#st1{
+    text-align: center;
+    font-size: 22px;
+    width: 500px;
+}
+#pg{
+    font-size: 8.5px;
+    transform: translateX(1%);
+}
+#m4{
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    height: 230px;
+    width: 230px;
+}
+#chats{
+    font-size: 8px;
+}
+i{
+    font-size: 9px;
+}
+#lit{
+    position:absolute;
+    top:568px ;
+    left: 270px;
+    width: 630px;
+    height: 5px;
+    background-image: url(ja.jpg);  
+}
+
+       
+
